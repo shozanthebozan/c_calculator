@@ -16,7 +16,8 @@ int main()
 
     while(1)
     {
-        printf("1:Addition\n2:Subtraction\n3:Multiplication\n4:Division\n5:Modulo\n\n");
+        printf("\nInsert 1 for Addition, 2 for Subtraction, 3 for Multiplication, 4 for Division or 5 for Modulo between these two numbers\n");
+        scanf("%d", &operation); 
 
         printf("Insert first number:\n");
         scanf("%d", &nb1);
@@ -24,8 +25,7 @@ int main()
         printf("\nInsert second number:\n");
         scanf("%d", &nb2);
 
-        printf("\nInsert type of operation:\n");
-        scanf("%d", &operation);
+        
 
         switch(operation)
         {
@@ -90,11 +90,11 @@ void continuance(int input)
 {
 	while(1)
 	{
-		printf("\nProceed with another operation?\n");
-        printf("-press 1 to proceed\n");
-        printf("-press 0 to end program\n");
+		
+        printf("\nPress 1 to do another calculation\n");
+        printf("Press 0 to end program\n");
         scanf("%d", &input);
-		system("cls");
+		printf("\033[H\033[J");
 		
         if(input==0)
         {
@@ -108,7 +108,7 @@ void continuance(int input)
 		
         else if(input!=1 && input!=0)
         {
-            system("cls");
+            printf("\033[H\033[J");
 	    printf("Invalid Input\n");
         }
 	}

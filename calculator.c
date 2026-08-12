@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-void sum();
-void substraction();
-void product();
-void division();
-void modulus();
-void continuance();
+void sum(int numberOne, int numberTwo);
+void substraction(int numberOne, int numberTwo);
+void product(int numberOne, int numberTwo);
+void division(int numberOne, int numberTwo);
+void modulus(int numberOne, int numberTwo);
+void continuance(int input);
 
 int main()
 {	

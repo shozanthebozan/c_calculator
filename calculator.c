@@ -16,7 +16,7 @@ int main()
 
     while(1)
     {
-        printf("1:Sum\n2:Substraction\n3:Product\n4:Division (quotient)\n5:Division (remainder)\n\n");
+        printf("1:Addition\n2:Subtraction\n3:Multiplication\n4:Division\n5:Modulo\n\n");
 
         printf("Insert first number:\n");
         scanf("%d", &nb1);

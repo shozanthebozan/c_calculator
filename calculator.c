@@ -16,7 +16,7 @@ int main()
 
     while(1)
     {
-        printf("\nInsert 1 for Addition, 2 for Subtraction, 3 for Multiplication, 4 for Division or 5 for Modulo between these two numbers\n");
+        printf("\nInsert 1 for Addition, 2 for Subtraction, 3 for Multiplication, 4 for Division or 5 for Modulo\n");
         scanf("%d", &operation); 
 
         printf("Insert first number:\n");

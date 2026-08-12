@@ -3,7 +3,7 @@ This project is a basic calculator made in `C`, which takes 2 integers as input 
 
 # Usage
 ### How to use?
-1. Download the binary from releases
+1. Download the binary for your operating system from releases
 2. Run it in the terminal or an ide
 
 

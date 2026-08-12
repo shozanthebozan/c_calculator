@@ -1,3 +1,5 @@
 calc
 *.exe
 *.zip
+.vscode
+

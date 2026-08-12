@@ -20,22 +20,7 @@ void modulo(int *resultptr, int a,int b)
 {
     *resultptr=a%b;
 }
-void loop()
-{
-    int loopchoice;
-    while(1)
-    {
-        puts("Enter 0 to exit, 1 to perform another calculation:");
-        scanf("%d", &loopchoice);
-        switch (loopchoice)
-        {
-            case 0:
-                exit(0);
-            case 1:
-                return;
-        }
-    }
-}
+
 int main()
 {
     int Operation, num1, num2, result;
@@ -68,7 +53,7 @@ int main()
                 puts("Invalid operation");
         }
         printf("The answer is %d\n", result);
-        loop();
+        
     }
     return 0;
 }

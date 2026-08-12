@@ -1,14 +1,10 @@
 # Simple Calculator
-This project is a basic calculator which takes 2 integers as intput from the user, to then output the beforehand selected type of operation (multiplication, division... etc) of the 2 inputted numbers in the console.
-
-# Features
-1. Calculates the result of the desired operation of two integers.
-2. Displays intelligible formatted output.
+This project is a basic calculator which takes 2 integers as input from the user, then performs the operation selected before by the user on the 2 integers and outputs the result.
 
 # Usage
 ### How to use?
-1. Download the code
-2. Import the code in your IDE and run the program or copy paste the code and run via console.
+1. Download the binary from releases
+2. Run it 
 
 # Contributing
 If you'd like to contribute to this project, please follow these guidelines:

@@ -36,23 +36,31 @@ int main()
         {
             case 1:
                 sum(&result, num1, num2);
+                printf("The answer is %d\n", result);
                 break;
             case 2:
                 subtract(&result, num1, num2);
+                printf("The answer is %d\n", result);
                 break;        
             case 3:
                 multiply(&result, num1, num2);
+                printf("The answer is %d\n", result);
                 break;
+            
             case 4:
                 divide(&result, num1, num2);
+                printf("The answer is %d\n", result);
                 break;
+                
             case 5:
                 modulo(&result, num1, num2);
+                printf("The answer is %d\n", result);
                 break;
+                
             default:
                 puts("Invalid operation");
         }
-        printf("The answer is %d\n", result);
+        
         
     }
     return 0;
